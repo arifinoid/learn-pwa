@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  position: absolute;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul > li:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ddd;
+}
+
+a:hover {
+  color: #61dafb;
+}
